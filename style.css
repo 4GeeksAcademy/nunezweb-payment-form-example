@@ -1,0 +1,64 @@
+* {
+	margin: 50 0 ;
+	padding: 0;
+}
+body {
+	font-family: montserrat, arial, verdana;
+}
+.paymentFormExample {
+	width: 80%;
+	margin: 50px auto;
+	text-align: left;
+	position: relative;
+}
+h1 {
+	padding: 10px;
+    margin: 0;
+    font-size: 30px;
+}
+.tittle, .summitButton {
+    background-color: #ededed;
+    border-bottom: 1px solid lightgray;
+}
+.summitButton {
+    border: 1px solid lightgray;
+}
+.container {
+    padding: 5px;
+}
+form {
+    border: 1px solid lightgray;
+}
+
+input {
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 13px;
+}
+select {
+	border: 1px solid gray!important;
+	border-radius: 5px;
+	width: 100%;
+    padding: 10px 2.25rem .375rem .75rem!important;
+}
+.creditCard {
+    background-color: lightgray;
+    width:fit-content;
+}
+.form-check-input:checked {
+    background-color: gray!important;
+    border-color: darkgray!important;
+}
+.textarea-instruction {
+    font-size: 12px;
+    color: darkgray;
+}
+.amountSymbol {
+    display: flex;
+}
+.amountSymbol p {
+    margin: 1%;
+    align-content: center
+}
